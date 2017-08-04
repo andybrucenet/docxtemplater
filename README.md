@@ -5,7 +5,7 @@ Adapted from https://docxtemplater.readthedocs.io/en/latest/installation.html#no
 
 Simple container that can be used to run node.js apps.
 
-You can test it out by doing the following (_If you are on Windows - you will need to modify accordingly ;)_):
+You can test it out by doing the following (_If you are on Windows - you will need to modify accordingly ;)_:
 
 1. Clone the project locally:
 
