@@ -5,7 +5,7 @@ Adapted from https://docxtemplater.readthedocs.io/en/latest/installation.html#no
 
 Simple container that can be used to run node.js apps.
 
-You can test it out by doing:
+You can test it out by doing the following (_If you are on Windows - you will need to modify accordingly ;)_):
 
 1. Clone the project locally:
 
@@ -21,7 +21,9 @@ You can test it out by doing:
 
     ```
     docker run --rm -it -v $(PWD):/work andybrucenet/docxtemplater \
-      ./assets/tests/test-01-doc-test-01.js ./assets/docx/Doc-Test-01.docx ./.localdata/Doc-Test-01.docx
+      ./assets/tests/test-01-doc-test-01.js \
+      ./assets/docx/Doc-Test-01.docx \
+      ./.localdata/Doc-Test-01.docx
     ```
 
 1. Open the result file `./.localdata/Doc-Test-01.docx` in either MS Word or LibreOffice. You should see that it has some replaceable parameters filled in.
