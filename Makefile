@@ -12,7 +12,7 @@ release: build
 	@docker build --tag=$(DOCKER_REPO):$(shell cat VERSION) .
 
 commit:
-	@docker commit $(PROJECT_NAME) $(DOCKER_USER)/test-lamp-server:latest
+	docker commit $(PROJECT_NAME) $(DOCKER_REPO):latest
 
 push: release
 	@docker push $(DOCKER_REPO):latest

@@ -9,7 +9,7 @@ RUN \
 # runtime user
 RUN adduser -D -u 1000 npmuser
 USER npmuser
-WORKDIR /home/npmuser
+WORKDIR /work
 
 # set entrypoint
 ENTRYPOINT ["node"]
