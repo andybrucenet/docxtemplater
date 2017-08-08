@@ -17,7 +17,7 @@ doc.setData({
   first_name: 'John',
   last_name: 'Shagalot',
   phone: '+1.555.159.9669',
-  description: 'Thinks he\'s something that perhaps he is not'
+  description: 'Demonstrates call to docxtemplater library.'
 });
 
 try {

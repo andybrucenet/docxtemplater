@@ -12,5 +12,5 @@ RUN \
 
 # other startup info
 WORKDIR /work
-ENTRYPOINT ["node"]
+ENTRYPOINT ["docxtemplater"]
 

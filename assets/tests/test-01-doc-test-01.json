@@ -1,0 +1,10 @@
+{
+  "config.inputFile":"./assets/docx/Doc-Test.docx",
+  "config.outputFile":"./.localdata/Doc-Test-01.docx",
+  "config.debug":true,
+  "first_name": "John",
+  "last_name": "Shagalot",
+  "phone": "+1.555.159.9669",
+  "description": "Demonstrates call to docxtemplater CLI."
+}
+
